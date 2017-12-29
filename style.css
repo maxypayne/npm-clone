@@ -1,0 +1,214 @@
+body {
+
+  padding: 0;
+  margin: 0;
+  font-family: 'Jura', sans-serif;
+
+}
+a {
+
+  color: white;
+  text-decoration: none;
+}
+h1 {
+
+  margin: 0;
+  padding: 0;
+}
+.top-left {
+
+  display: inline-block;
+}
+nav {
+
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: auto;
+
+ }
+ nav a {
+
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+ }
+
+ .top-links {
+
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+
+ }
+ .top-links li{
+
+  display: inline-block;
+  margin: 0 10px;
+ }
+
+
+.container {
+
+  height: 440px;
+  width: 100%;
+  background-image: url(images/city-scape.svg);
+}
+.container-head {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+
+}
+.section {
+
+  display: inline-block;
+  float: left;
+}
+.one {
+
+  width: 9%;
+  margin-right: 1%;
+}
+.two {
+
+  width: 70%;
+  vertical-align: top;
+}
+.three {
+  box-sizing: border-box;
+  margin :auto;
+  width: 19%;
+  height: 50px;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: middle;
+
+}
+.three p {
+
+  vertical-align: middle;
+}
+.logo img{
+
+  width: 100%;
+  height: 50px;
+}
+.search{
+  box-sizing: border-box;
+  height: 40px;
+  border-color:#3a738b;
+  outline: 0;
+  background: #09516f;
+  font-size: 18px;
+  padding-left: 20px;
+  width: 100%;
+}
+.container-body {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 30px  0 0 150px;
+  color: white;
+}
+.container-body-link {
+
+  padding: 7px 25px;
+  background: #fe8d00;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+
+}
+/*=====container2===========*/
+
+.container2 {
+  box-sizing: border-box;
+  background-image: url(images/collaboration.svg);
+  background-repeat: no-repeat;
+  background-size: 65% 60%;
+  background-position: left center;
+  background-color: #2b3547;
+  width: 100%;
+  height: 580px;
+
+ }
+ .container2-body {
+  box-sizing: border-box ;
+  width: 50%;
+  float: right;
+  padding:8% 0 0 10%;
+  color: white;
+
+ }
+ .container2-body li {
+
+  padding: 10px 0;
+  font-size: 18px;
+ }
+
+
+ .container2-body-link {
+  font-size: 19px;
+  background-color: #cb3837;
+  padding: 10px 30px;
+  border-radius: 20px;
+
+}
+
+/*===========container3============*/
+
+.container3 {
+
+  width: 100%;
+  height: 510px;
+  background-image: url(images/forklift.svg);
+ }
+ .container3-body {
+
+  box-sizing: border-box;
+  padding: 11% 0 0 13%;
+  width: 50%;
+  font-size: 20px;
+  color: white;
+
+ }
+
+
+ .container3-body-link{
+
+  padding: 10px 30px;
+  background-color: #34495e;
+  border-radius: 20px;
+}
+
+
+
+.container4 {
+
+  width: 100%;
+  height: 500px;
+
+}
+.container4-body {
+
+
+  text-align: center;
+}
+.container4-body-sections {
+  box-sizing: border-box;
+  padding-top: 50px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+
+  justify-content: space-between;
+}
